@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.site_logo{
+
+width: 113px;
+height: 27px;
+margin-left: 20px;
+
+}
+/* The header section in css*/
+.header{
+    background-image: url(images/2.webp);
+    height: 612px;
+    width: 1280px;
+    background-attachment:scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     left: 0;
+     top: 0;
+     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+/* The hero for the mobile.css*/
+.hero .headline{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: calc(50% - 500px/2 + 16.5px);
+    bottom: 100px;
+    background: rgba(255, 255, 255, 0.83);
+    
+    
+    
+    z-index: 2;
+
+}
+/* The h1 tag.css*/
+.headline h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 440px;
+    height: 32px;
+    left: calc(50% - 440px/2 + 10px);
+    top: 95px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+ul li{
+    list-style: none;
+}
+.header .container{
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 32px;
+    justify-content: space-between;
+    z-index: 2;
+}
+.main ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main a{
+
+    color: white;
+    
+}
+.main li{
+    margin-right: 10px;
+    
+}
+.main li:first-child{
+    margin-left: 20px;
+}
+.shopnow_btn{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: calc(50% - 150px/2 + 10px);
+    top: 140px;
+    align-items: center;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000;
+
+}
+.Topicons{
+
+
+    color: white;
+    
+}
+@media (max-width:800px){
+    .main { 
+        display: none;
+    }
+    .site_logo{
+
+        width: 113px;
+        height: 27px;
+        margin-left: 20px;
+        
+        }
+    .headline-content{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        z-index:2 ;
+        
+    }
+    .headline h1{
+        position: absolute;
+        width: 239px;
+        height: 65px;
+        left: calc(50% - 199px/1.6);
+        top: 25px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 33px;
+        /* or 110% */
+        text-align: center;
+        
+        color: #000000;
+          
+    }
+    .shopnow_btn{
+        position: absolute;
+        width: 150px;
+        height: 32px;
+        left: calc(50% - 150px/2 + 10px);
+        top: 95px;
+        align-items: center;
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 18px;
+        margin-right: 62px;
+        text-align: center;
+        text-decoration-line: underline;
+        
+        color: #000000;
+    
+    }
+}
+
+@media (max-width:900px){
+
+    .hero-content{
+        width: 400px;
+        padding: 45px 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .hero .headline{
+        position: absolute;
+        padding: 35px 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 330px;
+        height: 171px;
+        left: calc(50% - 330px/2 - 0.5px);
+        top: 315px;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.83);
+    }
+    .header{
+        background-image: url(images/2.webp);
+        height: 812px;
+        width: 375px;
+        background-attachment:scroll;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+         left: 0;
+         top: 0;
+         margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+   
+
+
+}
+.headline-content{
+    width: 360px;
+}

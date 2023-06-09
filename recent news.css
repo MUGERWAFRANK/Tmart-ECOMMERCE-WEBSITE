@@ -1,0 +1,247 @@
+.news-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    width: 93%;
+    
+    
+}
+.mews{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    column-gap: 2rem;
+
+}
+
+.news-items{
+    display: flex;
+    flex-direction: column;
+    width:396px;
+    height: 380px;
+    justify-content: center;
+    
+    
+}
+@media ( min-width:900px){
+.date{
+    background-color: #ffff;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30px;
+    bottom: 70px;
+   
+}
+.day-month{
+    width: 60px;
+    height: 70px;
+    padding: 10px;
+    border:1px solid rgba(0, 0, 0, 0.4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.day{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.class {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    text-align: start;
+    width: 296px;
+    height: 41px;
+    color: #000000; 
+    margin: 40px 40px;
+   
+}
+.more{
+width: 142px;
+height: 32px;
+margin: 30px 0px;
+text-decoration: underline;
+
+}
+.line3{
+    
+    width: 35px;
+    height: 0px;
+     position: relative;
+    left: 140px;
+    bottom: 40px;
+    
+    border: 1px solid #000000;  
+}
+}
+.news-items.news-one{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.news-items.news-two{
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+   background-color: rgba(0, 0, 0, 5);
+   z-index: 2;
+}
+.news-items.news-three{
+    background-image: url(images/9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+}
+h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+left: calc(50% - 296px/2 - 8.5px);
+
+color: #000000;
+}
+@media (max-width:700px){
+   
+   
+   }
+   .news{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+    width: 100%;
+    position: relative;
+    left: 21px;
+}
+.news-container{
+    display: flex; 
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    
+}
+
+
+@media (max-width:700px){
+
+.news-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 1.5rem;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    position: relative;
+    left: 30px;
+}
+.news-container{
+    display: flex;
+    position: relative;
+   
+    
+    gap: 2rem;
+    width: 93%;
+    margin: 0 auto;  
+}
+.date{
+    background-color: #ffff;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    right: 180px;
+}
+.day-month{
+    width: 60px;
+    height: 70px;
+    padding: 10px;
+    border:1px solid rgba(0, 0, 0, 0.4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.day{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.class {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    text-align: start;
+    width: 296px;
+    height: 41px;
+    color: #000000; 
+    position: absolute;  
+    left: 20px;
+    top: 150px;
+}
+.more{
+width: 142px;
+height: 32px;
+position: absolute;
+right: 150px;
+top: 70px;
+}
+.line3{
+    position: absolute;
+    width: 25px;
+    height: 0px;
+    left: 121px;
+    top: 80px;
+    
+    border: 1px solid #000000;  
+}
+.mews{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 97%;
+    position: absolute;
+    left: 0px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

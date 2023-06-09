@@ -1,0 +1,174 @@
+
+
+/* The product section for the phone views*/
+
+.product-container{
+    display: flex; 
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;  
+   }
+   .products{
+       display: grid;
+       grid-template-columns: 100%;
+       row-gap: 1rem;
+       width: 100%;
+       position: relative;
+       left: 21px;
+   }
+   .product-items{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Poppins', sans-serif;
+       gap: 1.5rem;
+       width: 90%;
+       height: 300px;
+       text-align: center;
+       color: #ffff;
+   }
+   .product-items.item-one{
+       background-image: url(images/3.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-two{
+       background-image: url(images/4.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-three{
+       background-image: url(images/5.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-four{
+       background-image: url(images/10.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-five{
+       background-image: url(images/7.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-six{
+       background-image: url(images/8.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-seven{
+       background-image: url(images/15.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items.item-eight{
+       background-image: url(images/16.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       object-fit: cover;
+       background-color: rgba(0, 0, 0, 0.5);
+       background-blend-mode:overlay;
+   
+   }
+   .product-items h3{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #ffff;
+   width: 45%;
+   
+   }
+   .product-items span{
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 20px;
+       text-align: center;
+       color: #ffff;
+   
+   }
+   h1{
+       font-weight: 600;
+       font-size: 33px;
+       text-align: center;
+   
+   }
+   /* the destop view*/
+   @media  (min-width:768px){
+       .products{
+           width: 93%;
+           
+           grid-template-columns: 322px 322px 321px 320px;
+           row-gap: 2rem;
+           position: relative;
+           left: 1px;
+           
+           
+       }
+       .product-container{
+           
+           flex-direction: row;
+           row-gap: 2rem;
+           width: 93%;
+           
+       }
+       .product-items{
+            
+        height: 280px;
+          
+          
+   
+   
+       }
+       .product-items h3{
+           font-weight: 500;
+           font-size: 16px;
+           line-height: 20px;
+           text-align: center;
+           color: #ffff;
+           width: 45%;
+           
+           }
+      
+   
+   }
+   @media  (min-width:900px){
+       .product{
+        width: 93%;
+        
+        grid-template-columns: 322px 322px 322px;
+        row-gap: 2rem;
+        
+           }   } 
+   

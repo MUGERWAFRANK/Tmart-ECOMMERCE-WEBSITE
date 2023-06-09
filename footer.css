@@ -1,0 +1,224 @@
+/* The footer section for the phone views*/
+@media (max-width:700px){
+    .footer{
+        position: relative;
+        top: 980px;
+        left: 49px;
+        width: 457px;
+        height: 480px;
+        background: #EFEFEF;
+        margin-bottom: 5px;
+    }
+    .rectangle{
+        width: 375px;
+        height: 480px;
+        background: #EFEFEF;
+    }
+    .site-motto{
+        width: 100px;
+        height: 24px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .address{
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        width: 262px;
+        height: 95px;
+    }
+    .address  .phone,
+    .address  .location,
+    .address  .mail  {
+       
+       margin: 10px 5px;
+       display: flex;
+        
+    }
+    address i{
+        position: absolute;
+        left: -30px;
+        width: 1px;
+    }
+    .address p{
+        width: 262px;
+        height: 21px;
+    }
+    .subscribe{
+        position: absolute;
+        width: 340px;
+        height: 113px;
+        left: 19px;
+        top: 190px;
+
+    }
+    .subscribe p{
+        height: 54px;
+        width: 320px;
+        left: 19px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+         color: #000;
+       border-radius: nullpx;
+
+    }
+    .ff{
+        
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 336px;
+        height: 40px;
+        left: calc(50% - 336px/2 - 0.5px);
+        background: #F9F9F9;
+        border: 0.4px solid rgba(0, 0, 0, 0.38);
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .line6{
+        position: absolute;
+        width: 336.01px;
+        height: 0px;
+        left: 19px;
+        top:  341.02px;
+
+        border: 1px solid rgba(0, 0, 0, 0.36);
+    }
+    .copy{
+        position: absolute;
+        width: 336.01px;
+        height: 45.98px;
+        left: 20px;
+        top: 441px;
+    }
+    .fff button{
+        position: absolute;
+        right: 8px;
+        bottom: 29px;
+        background: #D9D9D9;
+        width: 39px;
+        height: 30px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .fff  input[type="text"]{
+        
+        box-sizing: border-box;
+        font-size: 16px;
+        position: absolute;
+        width: 330px;
+        height: 30px;
+        left: calc(50% - 336px/2 - 0.5px);
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        bottom: 30px;
+        background: #F9F9F9;
+        border: 0.4px solid rgba(0, 0, 0, 0.38);
+    }
+
+
+}
+/* The footer section for the destop views below*/
+@media (min-width:900px) {
+    .footer{
+        position: absolute;
+        width: 1280px;
+        height: 292px;
+        left: 38px;
+        top: 2017px;
+
+background: #EFEFEF;
+    }
+    .rectangle{
+        width: 1200px;
+        height: 292px;
+        background: #EFEFEF;
+    }
+    .site-motto{
+        position: absolute;
+        width: 100px;
+        height: 24px;
+        left: 119px;
+        top: 25px;
+        left: 119px;
+    }
+    .address{
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        width: 262px;
+        height: 95px;
+    }
+    
+    .address  .phone,
+    .address  .location,
+    .address  .mail  {
+       
+       margin: 10px 5px;
+       display: flex;
+        
+    }
+    .line6{
+        position: absolute;
+        width: 1000px;
+        height: 0px;
+        left: 119px;
+        bottom: 78.02px;
+
+        border: 1px solid rgba(0, 0, 0, 0.36);
+}
+    .copy{
+            position: absolute;
+            width: 312px;
+            height: 25px;
+            left: 149px;
+            bottom: 31px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #000000;
+        }
+        .subscribe{
+            position: absolute;
+            width: 340px;
+            height: 113px;
+            right: 150px;
+            top: 80px;
+    
+        }
+        .fff  input[type="text"]{
+        
+            box-sizing: border-box;
+            font-size: 16px;
+            position: absolute;
+            width: 330px;
+            height: 30px;
+            left: calc(50% - 336px/2 - 0.5px);
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            bottom: 30px;
+            background: #F9F9F9;
+            border: 0.4px solid rgba(0, 0, 0, 0.38);
+        }
+        .fff button{
+            position: absolute;
+            right: 8px;
+            bottom: 29px;
+            background: #D9D9D9;
+            width: 39px;
+            height: 30px;
+            align-items: center;
+            cursor: pointer;
+        }
+}
